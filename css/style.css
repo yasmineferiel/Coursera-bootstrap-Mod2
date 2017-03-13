@@ -1,109 +1,55 @@
-.col-lg-4, .col-md-6,.col-md-12, .col-sm-12{
-    background-color: grey;
-    float: left;
-    outline: 1px solid black;
-    margin: 0 5px; 
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My resposive site</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
 
 
-@media(min-width:992px){
-	.col-lg-4{
-		width: calc(33.33% - 10px);
-		margin-bottom:5px;
-	}
-}
-/* -10px 5 de droite et de gauche */
-@media(min-width:768px) and (max-width:991px){
+<body >
 
-
-	.col-md-6{
-		width: calc(50% - 10px);      
-	    margin-bottom:5px;
-	}
-	.col-md-12{
-		width: calc(100% - 10px);      
-	    margin-bottom:5px;
-
-
-	}
-
-	
-#chicken, #beef, #sushi{
-		width:85px
-
-	}
+<div class="container" >
 
  
-}
 
+<div class="center"> <p>  Our Menu </p></div>
 
+	<div class="container">
+	<div class="row">
+		<section class="col-lg-4 col-md-6 col-sm-12">
 
-@media(max-width:767px){
-
-	.col-sm-12{
-		width: calc(100% - 10px);      
-	    margin-bottom:5px;
-	}
-
-
-	#chicken, #beef, #sushi{
-		width: 100px
-
-	}
-}
-
-
-
-
-
-#chicken{
-
-background-color: pink;
-
-}
-
-
-
-#beef{
-
-background-color: red;
-color: white;
-
-}
-
-
-
-#sushi{
-background-color: yellow;
-
-}
-
-
-.title{
-
-
-	font-family: "Times New Roman", Georgia, Serif;
-	float: right; 
-	width: 20%;
+	        <div id="chicken" class="title"> Chicken </div>
+	   	
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna dui, molestie bibendum dapibus sit amet, vehicula et orci. Duis facilisis metus dolor, ac cursus nisi ornare laoreet. Phasellus ac nisi ipsum. Sed vel neque erat. Vestibulum magna tortor, tempus nec tortor et, elementum imperdiet orci. Nullam a odio enim. Curabitur tempor purus id velit faucibus pretium. Morbi rutrum pharetra massa sit amet vehicula.
+		        </p>
+   
+    	</section>
+		
+		<section class="col-lg-4 col-md-6 col-sm-12">
+	         <div id="beef" class="title"> Beef</div>
+	   	
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna dui, molestie bibendum dapibus sit amet, vehicula et orci. Duis facilisis metus dolor, ac cursus nisi ornare laoreet. Phasellus ac nisi ipsum. Sed vel neque erat. Vestibulum magna tortor, tempus nec tortor et, elementum imperdiet orci. Nullam a odio enim. Curabitur tempor purus id velit faucibus pretium. Morbi rutrum pharetra massa sit amet vehicula.
+		        </p>
+    
+		</section>
 	
-	padding: 1px;
-	position: relative;
-	text-align: center;
-}
-
-p{
-font-family: "Times New Roman", Georgia, Serif;
-padding: 0px 0 0 17px;
-
-}
+		<section class="col-lg-4 col-md-12 col-sm-12 ">
+        	<div id= "sushi" class="title"> Sushi</div>
+   	
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna dui, molestie bibendum dapibus sit amet, vehicula et orci. Duis facilisis metus dolor, ac cursus nisi ornare laoreet. Phasellus ac nisi ipsum. Sed vel neque erat. Vestibulum magna tortor, tempus nec tortor et, elementum imperdiet orci. Nullam a odio enim. Curabitur tempor purus id velit faucibus pretium. Morbi rutrum pharetra massa sit amet vehicula.
+	        </p>
+    	</section>
+    </div>
+    
 
 
-.center{
-	
-    font-weight: bold;
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
+</div>
+</div>
+
+
+
+</body>
+</html>
